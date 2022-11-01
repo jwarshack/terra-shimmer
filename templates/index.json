@@ -6,15 +6,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "It's your skin,",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "you deserve to feel comfortable in it.",
+            "text_style": "h2"
           }
         },
         "button": {
@@ -22,10 +22,10 @@
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
@@ -35,8 +35,9 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/beauty-products-and-flower.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -69,6 +70,9 @@
         "text"
       ],
       "settings": {
+        "custom_css_class": "custom",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -80,15 +84,22 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
@@ -128,19 +139,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -198,6 +197,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e7c8d80d-9e43-400f-98fa-76596c8bdb6c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16796000813376__e7c8d80d-9e43-400f-98fa-76596c8bdb6c-16673378916345c724-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>made with love in california<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16796000813376__e7c8d80d-9e43-400f-98fa-76596c8bdb6c-16673378916345c724-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It's our mission to redefine luxury beauty by creating amazing products at prices that don't break the bank. Dedicated to newness at lightning speed, we imagine, develop, test, and manufacture all under one roof. We pride ourselves on being cruelty-free, wallet-friendly, and keeping our customers at the center of our world<\/p>"
+          }
+        },
+        "template--16796000813376__e7c8d80d-9e43-400f-98fa-76596c8bdb6c-16673378916345c724-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "watch now",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16796000813376__e7c8d80d-9e43-400f-98fa-76596c8bdb6c-16673378916345c724-0",
+        "template--16796000813376__e7c8d80d-9e43-400f-98fa-76596c8bdb6c-16673378916345c724-1",
+        "template--16796000813376__e7c8d80d-9e43-400f-98fa-76596c8bdb6c-16673378916345c724-2"
+      ],
+      "settings": {
+        "custom_css_class": "rich-text-home",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -205,7 +247,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "video",
-    "multicolumn"
+    "multicolumn",
+    "e7c8d80d-9e43-400f-98fa-76596c8bdb6c"
   ]
 }

@@ -80,6 +80,11 @@
   --alpha-button-background: 1;
 }
 
+.button--secondary:hover {
+  color: #fff;
+  background-color: #000;
+}
+
 .color-background-2 .button--secondary,
 .color-accent-1 .button--secondary,
 .color-accent-2 .button--secondary {
