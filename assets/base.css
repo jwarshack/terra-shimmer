@@ -2189,6 +2189,7 @@ input[type='checkbox'] {
   width: 100%;
   padding: 1rem 0;
   text-decoration: none;
+
 }
 
 .announcement-bar__link:hover {
@@ -2212,6 +2213,8 @@ input[type='checkbox'] {
   padding: 1rem 0;
   margin: 0;
   letter-spacing: 0.1rem;
+  color: rgb(126, 214, 240);
+  text-transform: uppercase;
 }
 
 /* section-header */
@@ -2633,6 +2636,7 @@ details[open] > .header__submenu {
   padding: 1.2rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
+  text-transform: uppercase;
 }
 
 .header__menu-item:hover {
