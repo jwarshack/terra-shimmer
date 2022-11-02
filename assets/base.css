@@ -74,15 +74,23 @@
 }
 
 .button--secondary {
+  background-color: #fff!important;
+  color: #000!important;
+  /* border: 1px solid #000!important; */
+}
+
+.button--secondary {
   --color-button: var(--color-base-outline-button-labels);
   --color-button-text: var(--color-base-outline-button-labels);
   --color-button: var(--color-background);
   --alpha-button-background: 1;
+  transition: 0.4s!important;
+
 }
 
 .button--secondary:hover {
-  color: #fff;
-  background-color: #000;
+  color: #fff!important;
+  background-color: #000!important;
 }
 
 .color-background-2 .button--secondary,
@@ -1304,7 +1312,7 @@ button.shopify-payment-button__button--unbranded,
   --shadow-blur-radius: var(--buttons-shadow-blur-radius);
   --shadow-opacity: var(--buttons-shadow-opacity);
   --shadow-visible: var(--buttons-shadow-visible);
-  --border-offset: var(--buttons-border-offset); /* reduce radius edge artifacts */
+  --border-offset: var(--buttons-border-offset); /*reduce radius edge artifacts */
   --border-opacity: calc(1 - var(--buttons-border-opacity));
   border-radius: var(--buttons-radius-outset);
   position: relative;
