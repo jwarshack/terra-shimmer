@@ -1,0 +1,34 @@
+<div>
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when "text" -%}
+      <p>{{ block.shopify_attributes }}</p>
+    {%- endcase -%}
+  {%- endfor -%}
+
+</div>
+
+{% schema %}
+
+{
+  "name": "test",
+  "tag": "section",
+  "class": "section",
+  "blocks": [
+    {
+      "name": "Text",
+      "type": "text",
+      "settings": [
+        {      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "my-text"
+    }
+
+      ]
+    }
+
+  ]
+}
+
+{% endschema %}
